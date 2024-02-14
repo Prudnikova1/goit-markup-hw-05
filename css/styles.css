@@ -668,7 +668,7 @@ width: 264px;
     margin-bottom: 8px;
     background-color: #fcfcfc;
     border-radius: 4px;
-    box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -721,7 +721,7 @@ width: 264px;
 }
 
 .modal-field{
-margin-bottom: 26px;
+margin-bottom: 24px;
 }
 
 .modal-input{
@@ -749,7 +749,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
     margin-bottom: 4px;
         font-size: 12px;
-        line-height: 117%;
+        line-height: 1.17%;
         letter-spacing: 0.04em;
         color: var(--light-slate);
 }
@@ -775,6 +775,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         outline: transparent;
         transition-duration: 250 ms;
 resize: none;
+letter-spacing: 0.04em;
 font-size: 12px;
 line-height: 1.17;
 color: rgba(46, 47, 66, 0.4);
@@ -828,7 +829,6 @@ fill: #F4F4FD;
 
 .btn-modal{
 border-radius: 4px;
-width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--iris);
@@ -842,6 +842,7 @@ background-color: #4D5AE5;
 border: none;
 margin: auto;
 transition: 250ms;
+min-width: 169px
 margin-bottom: 24px;
 letter-spacing: 0.04em;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

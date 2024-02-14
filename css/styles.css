@@ -751,9 +751,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
     margin-bottom: 4px;
         font-size: 12px;
-        line-height: 1.17%;
+        line-height: 1.17;
         letter-spacing: 0.04em;
-        color: var(--light-slate);
+        color: #8e8f99;
 }
 
 .modal-icon{
@@ -835,6 +835,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .form-check:checked + .check-text span{
 background-color: #404bbf;
 fill: #F4F4FD;
+border: none;
 }
 
 .btn-modal{
@@ -859,15 +860,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .span-policy{
-/* border: 1px solid rgba(46, 47, 66, 0.4);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex; */
 }
 
 .text-polis{
 border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* display: inline-flex; */
 }
 
 .check-icon{

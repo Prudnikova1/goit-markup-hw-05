@@ -517,6 +517,8 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+    display: block;
+        margin-bottom: 16px;
 }
 
 .footer-oll{
@@ -587,6 +589,10 @@ background-color: #31d0aa;}
 
 .form-label-footer::placeholder{
     color: #ffffff;
+}
+
+.footer-icons-svg{
+    color: #FFF;
 }
 
 .email-icon{

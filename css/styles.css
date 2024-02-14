@@ -562,7 +562,7 @@ fill: #f4f4fd;
 } 
 
 .footer-link-social{
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 .footer-icons-link:hover, 
@@ -601,6 +601,11 @@ background-color: #31d0aa;}
 margin-left: 16px;
 fill: #ffffff;
 }
+
+.button-icon-email{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .button-icon-email:hover,
 .button-icon-email:focus{
     background-color: #404bbf;
@@ -727,6 +732,7 @@ margin-bottom: 8px;
 }
 
 .modal-input{
+font-size: 12px;
 width: 100%;
 padding-right: 24px;
 height: 40px;
@@ -757,7 +763,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon{
-fill: var(--navy-blue);
+fill: #2e2f42;
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
@@ -838,6 +844,10 @@ fill: #F4F4FD;
 border: none;
 }
 
+.form-check:focus+.check-text span {
+    border-color: #4D5AE5;
+}
+
 .btn-modal{
 border-radius: 4px;
 min-width: 169px;
@@ -854,7 +864,6 @@ background-color: #4D5AE5;
 border: none;
 margin: auto;
 transition: 250ms;
-margin-bottom: 24px;
 letter-spacing: 0.04em;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
